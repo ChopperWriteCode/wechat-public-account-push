@@ -50,50 +50,6 @@ const USER_CONFIG = {
     },
   ],
 }
-const USER_CONFIG = {
 
-  USE_PASSAGE: 'push-deer',
-  // 使用微信测试号：公众号APP_ID
-  APP_ID: '',
-
-  // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '',
-
-  PROVINCE: '湖北',
-  CITY: '武汉',
-
-  USERS: [
-    {
-      // 想要发送的人的名字
-      name: '宝贝',
-      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'PDU23122T9WmlbPNVAn9mWCT385yXwX1Uy7qj3YOR',
-      // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '0002',
-      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '01-04',
-      festivals: [
-        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {
-          type: '*生日', name: '小Q', year: '1997', date: '12-06',
-        },
-        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {
-          type: '生日', name: '小Q', year: '1998', date: '01-04',
-        },
-        {
-          type: '节日', name: '下一次见面的日子', year: '2023', date: '08-01',
-        },
-      ],
-      // 我们在一起已经有xxxx天了的配置
-      customizedDateList: [
-        // 在一起的日子
-       // { keyword: 'love_day', date: '2022-07-08' },
-        // 结婚纪念日
-        //{ keyword: 'marry_day', date: '2022-09-09' },
-      ],
-    },
-  ],
-}
 module.exports = USER_CONFIG
 
